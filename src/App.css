@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.body-sect {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  background-color: #3367d6;
+  background-size: cover;
+  height: 40px;
+  display: flex;
+  padding: 30px;
+  color: #ffffff;
+}
+.history-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+}
+.app-logo {
+  height: 30px;
+  align-self: center;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search-icon {
+  background-color: #2850a7;
+  height: 30px;
+  padding: 4px;
+  width: 40px;
+  align-self: center;
+  border: 1px solid #ececec;
+  margin-right: 2px;
+}
+.search-img {
+  height: 24px;
+  align-self: center;
+}
+.input-box {
+  background-color: #2850a7;
+  height: 30px;
+  width: 520px;
+  padding: 10px;
+  color: #ffffff;
+  align-self: center;
+  border: 1px solid #ececec;
+  margin-right: 2px;
+}
